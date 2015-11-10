@@ -17,11 +17,7 @@ public class World {
 	Cell[][] _world;
 	
 	/**
-<<<<<<< HEAD
-	 * A random number generator (actually pseudo-random, of course).
-=======
 	 * A pseudo-random number generator.
->>>>>>> wjl_display
 	 */
 	
 	Random _rng;
@@ -120,11 +116,7 @@ public class World {
 	 */
 	
 	public String toString() {
-<<<<<<< HEAD
-		String toReturn = "> ";
-=======
 		String toReturn = "* ";
->>>>>>> wjl_display
 		for (int j= 0; j < _size; j++) {
 			toReturn += String.valueOf(j % 10);
 		}

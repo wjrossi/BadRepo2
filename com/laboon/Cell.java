@@ -70,11 +70,7 @@ public class Cell {
 		} else if (_state == State.ALIVE) {
 			toReturn = '*';
 		} else {
-<<<<<<< HEAD
-			toReturn = '_';
-=======
 			toReturn = ' ';
->>>>>>> wjl_display
 		}
 		return toReturn;
 	}
